@@ -1,0 +1,20 @@
+ #todo-input {
+     margin-top: 20px;
+ }
+ 
+ #todo-list {
+     margin-top: 20px;
+ }
+ 
+ .todo-item {
+     background-color: #bbb;
+     margin: 5px;
+     padding: 5px;
+     list-style-type: none;
+     list-style-position: outside;
+ }
+
+.todo-item-done {
+    text-decoration: line-through;
+    background-color: #999;
+}

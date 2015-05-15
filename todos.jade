@@ -1,0 +1,22 @@
+html
+    head
+        meta(charset="utf-8")
+        title Todos with jade and coffee
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css")
+        link(rel="stylesheet", href="todos.css")
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.min.js")
+    body
+        .container
+            #todo-input
+                textarea.form-control#add-todo-item-content(placeholder="What do you want to do?")
+                button.btn.btn-primary.btn-block#add-todo-item-button Add
+            #todo-list
+                .todo-item Add a new item
+                .todo-item Add a another new item
+        script
+            include:coffeescript todos.coffee
+            
+        
+                
+        
