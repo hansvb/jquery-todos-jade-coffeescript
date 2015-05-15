@@ -16,7 +16,5 @@ html
                 .todo-item Add a another new item
         script
             include:coffeescript todos.coffee
-            
-        
-                
-        
+        script#todo-item-template(type=text/x-handlebars-template)
+            .todo-item {{content}}
